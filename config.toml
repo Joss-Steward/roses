@@ -1,0 +1,71 @@
+baseURL = "http://example.org/"
+languageCode = "en-us"
+title = "Rose of Sharon"
+theme = "sharon"
+
+[params]
+    author = "Joss Steward"
+    description = "Web site for Rose of Sharon Equestrian School"
+
+[menu]
+    [[menu.main]]
+        identifier = "welcome"
+        name = "Welcome"
+        weight = 1
+    
+    [[menu.main]]
+        parent = "welcome"
+        name = "Home"
+        url = "/welcome/home"
+        weight = 1
+
+    [[menu.main]]
+        identifier = "who"
+        parent = "welcome"
+        name = "Who, What, Where, Why, and How"
+        url = "/welcome/who"
+        weight = 2
+
+    [[menu.main]]
+        identifier = "mission"
+        parent = "welcome"
+        name = "Mission, Values, Philosophy and Vision"
+        url = "/welcome/mission"        
+        weight = 3
+
+    [[menu.main]]
+        identifier = "directors"
+        parent = "welcome"
+        name = "Directors and Advisors"
+        url = "/welcome/board"        
+        weight = 4
+
+
+    [[menu.main]]
+        identifier = "programs"
+        name = "Programs"
+        weight = 2
+        
+    [[menu.main]]
+        parent = "programs"
+        name = "Overview"
+        url = "/programs/overview"
+        weight = 1
+
+    [[menu.main]]
+        parent = "programs"
+        name = "Program in Action"
+        url = "/programs/action"
+        weight = 2
+
+    [[menu.main]]
+        parent = "programs"
+        name = "Testimonials"
+        url = "/programs/testimonials"
+        weight = 3
+
+    [[menu.main]]
+        parent = "programs"
+        name = "Future Plans"
+        url = "/programs/plans"
+        weight = 4

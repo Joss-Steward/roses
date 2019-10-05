@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en">
+
+{{- partial "head.html" . -}}
+
+<body>
+    <div class="d-flex p-3 mx-auto flex-column">
+        {{- partial "header.html" -}}
+
+        {{- partial "carousel.html" -}}
+
+        <div class="container">
+
+            {{- partial "navigation.html" . -}}
+
+            <main role="main">
+                <h4>{{ .Title }}</h4>
+
+                {{ .Content }}
+            </main>
+        </div>
+    </div>
+
+    <footer class="footer mt-auto text-center">
+        <div class="container">
+            <p>Cover template for <a href="https://getbootstrap.com/">Bootstrap</a></p>
+        </div>
+    </footer>
+</body>
+
+</html>

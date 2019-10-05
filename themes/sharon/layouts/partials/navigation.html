@@ -1,0 +1,37 @@
+{{ define "menu-item" }}
+{{ $page := .page }}
+{{ with .entry }}
+{{ if .HasChildren }}
+<li class="nav-item dropdown {{ if $page.HasMenuCurrent "main" . }}active{{ end }}">
+    <a class="nav-link dropdown-toggle" href="#" id="dropdown09" data-toggle="dropdown" aria-haspopup="true"
+        aria-expanded="false">{{ .Name }}</a>
+    <div class="dropdown-menu" aria-labelledby="dropdown09">
+        {{ range .Children }}
+        <a class="dropdown-item {{ if $page.IsMenuCurrent "main" . }}active{{ end }}"
+            href="{{ .URL }}">{{ .Name }}</a>
+        {{ end }}
+    </div>
+</li>
+{{ else }}
+<li class="nav-item {{ if $page.IsMenuCurrent "main" . }}active{{ end }}">
+    <a class="nav-link" href="{{ .URL }}">{{ .Name }}<span class="sr-only">(current)</span></a>
+</li>
+{{ end }}
+{{ end }}
+{{ end }}
+
+<nav class="navbar navbar-expand-lg navbar-light bg-light rounded sticky-top">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample09"
+        aria-controls="navbarsExample09" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarsExample09">
+        <ul class="navbar-nav mr-auto">
+            {{ $page := . }}
+            {{ range .Site.Menus.main }}
+                {{ template "menu-item" (dict "entry" . "page" $page) }}
+            {{ end }}
+        </ul>
+    </div>
+</nav>
