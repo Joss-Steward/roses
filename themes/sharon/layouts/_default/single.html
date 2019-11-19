@@ -4,26 +4,22 @@
 {{- partial "head.html" . -}}
 
 <body>
-    <div class="d-flex p-3 mx-auto flex-column">
+    <div class="container">
         {{- partial "header.html" -}}
 
         {{- partial "carousel.html" -}}
 
-        <div class="container">
+        {{- partial "navigation.html" . -}}
 
-            {{- partial "navigation.html" . -}}
+        <main role="main">
+            {{ .Content }}
+        </main>
 
-            <main role="main">
-                {{ .Content }}
-            </main>
+        <div class="container foot text-center">
+            <hr/>
+            <p>Copyright {{ $.Site.Params.copyright }}</p>
         </div>
     </div>
-
-    <footer class="footer mt-auto text-center">
-        <div class="container">
-            <p>Cover template for <a href="https://getbootstrap.com/">Single</a></p>
-        </div>
-    </footer>
 </body>
 
 </html>

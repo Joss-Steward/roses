@@ -6,6 +6,7 @@ theme = "sharon"
 [params]
     author = "Joss Steward"
     description = "Web site for Rose of Sharon Equestrian School"
+    copyright = "2019, Rose of Sharon Equestrian School"
 
 [menu]
     [[menu.main]]
@@ -69,3 +70,158 @@ theme = "sharon"
         name = "Future Plans"
         url = "/programs/plans"
         weight = 4
+
+
+    [[menu.main]]
+        identifier = "horses"
+        name = "Horses"
+        weight = 3
+
+    [[menu.main]]
+        parent = "horses"
+        name = "Horses"
+        url = "/horses/horses"
+        weight = 1
+    
+    [[menu.main]]
+        parent = "horses"
+        name = "Partners"
+        url = "/horses/partners"
+        weight = 2
+
+    [[menu.main]]
+        parent = "horses"
+        name = "Sponsorships"
+        url = "/horses/sponsorships"
+        weight = 3
+
+
+    [[menu.main]]
+        identifier = "events"
+        name = "Events"
+        weight = 4
+
+    [[menu.main]]
+        parent = "events"
+        name = "Special Events"
+        url = "/events/special_events"
+        weight = 1
+
+    [[menu.main]]
+        parent = "events"
+        name = "This Year's Events"
+        url = "/events/2019"
+        weight = 2
+
+    [[menu.main]]
+        parent = "events"
+        name = "Ongoing Events"
+        url = "/events/ongoing"
+        weight = 3
+
+
+    [[menu.main]]
+        identifier = "policies"
+        name = "Policies"
+        weight = 5
+
+    [[menu.main]]
+        parent = "policies"
+        name = "Policies and Proceedures"
+        url = "/policies/policies"
+        weight = 1
+
+    [[menu.main]]
+        parent = "policies"
+        name = "New Student Application"
+        url = "/policies/application"
+        weight = 2
+
+    [[menu.main]]
+        parent = "policies"
+        name = "Program Survey"
+        url = "/policies/survey"
+        weight = 3
+        
+
+    [[menu.main]]
+        identifier = "volunteers"
+        name = "Volunteers"
+        weight = 6
+
+    [[menu.main]]
+        parent = "volunteers"
+        name = "Opportunities"
+        url = "/volunteers/opportunities"
+        weight = 1
+
+    [[menu.main]]
+        parent = "volunteers"
+        name = "Application"
+        url = "/volunteers/application"
+        weight = 2
+
+    [[menu.main]]
+        parent = "volunteers"
+        name = "Experiences"
+        url = "/volunteers/experiences"
+        weight = 3
+
+
+    [[menu.main]]
+        identifier = "contributions"
+        name = "Contributions"
+        weight = 7
+
+    [[menu.main]]
+        parent = "contributions"
+        name = "Make a Contribution"
+        url = "/contributions/make"
+        weight = 1
+
+    [[menu.main]]
+        parent = "contributions"
+        name = "Frequently Asked Questions"
+        url = "/contributions/faq"
+        weight = 2
+
+    [[menu.main]]
+        parent = "contributions"
+        name = "Corporate Citizen Supporters"
+        url = "/contributions/corporate"
+        weight = 3
+    
+    [[menu.main]]
+        parent = "contributions"
+        name = "Our Sponsors and Friends"
+        url = "/contributions/sponsors"
+        weight = 4
+
+    [[menu.main]]
+        parent = "contributions"
+        name = "In-Kind Wish List"
+        url = "/contributions/wish-list"
+        weight = 5
+
+    [[menu.main]]
+        parent = "contributions"
+        name = "Gifts that Give"
+        url = "/contributions/gifts"
+        weight = 6
+
+    [[menu.main]]
+        parent = "contributions"
+        name = "Capital Campaign"
+        url = "/contributions/campaign"
+        weight = 7
+
+    [[menu.main]]
+        parent = "contributions"
+        name = "Estate Giving"
+        url = "/contributions/estate"
+        weight = 8
+
+    [[menu.main]]
+        name = "Contact Us"
+        url = "/contact"
+        weight = 8

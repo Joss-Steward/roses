@@ -4,25 +4,38 @@ date: 2019-10-04T23:45:06-07:00
 draft: false
 ---
 
-# Accomplishments
+## Accomplishments
 
-![Arena](arena_1.jpg "From dream to dedication")
+{{< figure src="/arena_1.jpg" title="From dream to dedication">}}
 
-Rose of Sharon Equestrian School has completed Phase I of it's Raise Me Up Capital Campaign to build an indoor therapeutic riding arena and classroom space! However, our efforts to fulfill the promise this building holds have just begun. For the past six years, the organization has concentrated many of its grass-roots resources on bringing this dream to fruition, believing it was key to the long-term sustainability of the program. From the smallest individual donation, to the most generous of grants, this addition to the ROSES' facility has been truly a labor of love for those directly involved with the organization as well as the community at large.
+Rose of Sharon Equestrian School has completed Phase I of it's *Raise Me Up Capital Campaign* to build an indoor therapeutic riding arena and classroom space! However, our efforts to fulfill the promise this building holds have just begun. For the past six years, the organization has concentrated many of its grass-roots resources on bringing this dream to fruition, believing it was key to the long-term sustainability of the program. From the smallest individual donation, to the most generous of grants, this addition to the ROSES' facility has been truly a labor of love for those directly involved with the organization as well as the community at large.
 
-[To view the story of our project Click Here](http://roseofsharonschool.org/Arena%20Story_1.pdf)
+**[To view the story of our project Click Here](http://roseofsharonschool.org/Arena%20Story_1.pdf)**
 
 Opportunities are still available for you to have an engraved horseshoe or stirrup in honor of a loved one or a special occasion mounted on the arena wall. Options also remain for corporate citizens to name a window, the mounting ramp, the coordination center and more.
 
-[Dedicate-a-horseshoe](http://roseofsharonschool.org/New%20Horseshoe%20Dedication%20Website%20Form.pdf)
+{{< rawhtml >}}
 
-[Dedicate-a-stirrup](http://roseofsharonschool.org/New%20Stirrup%20Dedication%20Website%20Form.pdf)
+<div class="container text-center">
+    <div class="row">
+        <div class="col-sm">
+            <strong><a href="http://roseofsharonschool.org/New%20Horseshoe%20Dedication%20Website%20Form.pdf">Dedicate-a-horseshoe</a></strong>
+        </div>
+        <div class="col-sm">
+            <strong><a href="http://roseofsharonschool.org/New%20Stirrup%20Dedication%20Website%20Form.pdf">Dedicate-a-stirrup</a></strong>
+        </div>
+        <div class="col-sm">
+            <strong><a href="http://roseofsharonschool.org/Arena%20Naming%20Opportunities%20Website%20Form.pdf">Naming Opportunities</a></strong>
+        </div>
+    </div>
+</div>
 
-[Naming Opportunities](http://roseofsharonschool.org/Arena%20Naming%20Opportunities%20Website%20Form.pdf)
+<br/>
+{{< /rawhtml >}}
 
 Please print, fill-out, and mail-in the appropriate form.
 
-# Future Plans
+## Future Plans
 
 Rose of Sharon Equestrian School is developing plans for the future in these areas:
 

@@ -1,0 +1,78 @@
+body {
+	margin: 0;
+	padding: 0;
+	background: url(/img/bg.jpg) repeat left top;
+	font-family: Garamond;
+	font-size: 15px;
+}
+
+.container {
+	margin-bottom: 1em;
+}
+
+main {
+	border-left: 1px solid #aa8675;
+	border-right: 1px solid #aa8675;
+    color: #595959;
+    background: url(/img/flower.jpg) center bottom no-repeat #dfddce;
+    
+	padding: 12px 20px;
+	padding-bottom: 70px;
+}
+
+nav {
+	border-left: 1px solid #aa8675;
+	border-right: 1px solid #aa8675;
+	border-bottom: 1px solid #aa8675;
+    color: #595959;
+    background: #dfddce;
+    
+	padding: 12px 20px;
+	padding-bottom: 70px;
+}
+
+.foot {	
+	border-left: 1px solid #aa8675;
+	border-right: 1px solid #aa8675;
+	border-bottom: 1px solid #aa8675;
+    color: #595959;
+    background: #dfddce;
+	padding: 12px 20px;
+	margin-bottom: 70px;
+}
+
+.nav-item {
+	list-style-image: none;
+}
+
+a img {
+	border: none;
+}
+
+a {
+	color: #814D3B;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #11767a;
+	text-decoration: none;
+}
+
+li {
+	list-style-type: none;
+	list-style-image: url(/img/bullet.gif);
+	padding-left: 10px;
+}
+
+figcaption {
+	padding-top: 1em;
+}
+
+strong {
+	font-size: 1.2rem;
+}
+
+.fill {
+	width: 100%;
+}
